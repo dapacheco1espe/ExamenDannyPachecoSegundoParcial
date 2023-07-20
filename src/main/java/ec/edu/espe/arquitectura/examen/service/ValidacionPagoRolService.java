@@ -2,13 +2,13 @@ package ec.edu.espe.arquitectura.examen.service;
 
 import org.springframework.stereotype.Service;
 
-import ec.edu.espe.arquitectura.examen.repository.PagoRolRepository;
+import ec.edu.espe.arquitectura.examen.repository.ValidacionPagoRolRepository;
 
 @Service
 public class ValidacionPagoRolService {
-    private final PagoRolRepository pagoRolRepository;
+    private final ValidacionPagoRolRepository pagoRolRepository;
 
-    public ValidacionPagoRolService(PagoRolRepository pagoRolRepository){
+    public ValidacionPagoRolService(ValidacionPagoRolRepository pagoRolRepository){
         this.pagoRolRepository = pagoRolRepository;
     }
 
